@@ -175,6 +175,32 @@
                 </div>
             </div>
         </div>
+        <h2 style="color: rgb(179, 207, 248);" class="justify-content-center d-flex">Unit teszt példa ChatGPT segitségével:</h2>
+        <div class="container bg-dark">
+            <h4 class="text-primary justify-content-center d-flex">// sum.js</h4>
+            <p class="text-primary justify-content-center d-flex">function add(a, b) {<br>return a + b; <br>} <br>module.exports = add;</p>
+        </div>
+        <p style="color: rgb(179, 207, 248); font-size: 18px;" class="justify-content-center d-flex">Most készítsünk egy egyszerű Jest tesztet ennek a függvénynek:</p>
+        <div class="container bg-dark">
+            <h4 class="text-primary justify-content-center d-flex">// sum.test.js</h4>
+            <p class="text-primary justify-content-center d-flex">const add = require('./sum');<br>test('adds 1 + 2 to equal 3', () => {<br>expect(add(1, 2)).toBe(3)<br>});<br>test('adds 5 + 7 to equal 12', () => {<br>expect(add(5, 7)).toBe(12);<br>});</p>
+        </div>
+        <p style="color: rgb(179, 207, 248); font-size: 18px;" class="justify-content-center d-flex">
+            Ebben a példában a 'sum.test.js' fájlban két egyszerű tesztesetet hoztunk létre a <br>
+            'add' függvényhez. Az első teszteset ellenőrzi, hogy az 'add(1, 2)' hívás eredménye <br>
+            megegyezik-e a várt értékkel (3), míg a második teszteset az 'add(5, 7)' hívás <br>
+            eredményét ellenőrzi a várt értékkel (12). 
+        </p>
+        <p style="color: rgb(179, 207, 248); font-size: 18px;" class="justify-content-center d-flex">
+            A 'test' függvények a Jest keretrendszer részei, és az 'expect' függvény <br>
+            segítségével definiálják a várt eredményt. Ha a függvény valóban megfelel a  <br>
+            várakozásoknak, akkor a teszt sikeres lesz, különben hibát jelez
+        </p>
+        <p style="color: rgb(179, 207, 248); font-size: 18px;" class="justify-content-center d-flex">
+            Ez csak egy egyszerű példa, de a valóságban a unit tesztek általában sokkal <br>
+            összetettebbek és több különböző esetet fednek le. A unit tesztek segítenek abban, <br>
+            hogy a kódunk stabil legyen, és könnyebben karbantartható legyen.
+        </p>
     </div>
     <script src="https://www.youtube.com/iframe_api"></script>
     <script>
